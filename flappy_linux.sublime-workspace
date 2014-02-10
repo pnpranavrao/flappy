@@ -1,0 +1,901 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"auth",
+				"authorizeButton"
+			],
+			[
+				"nex",
+				"nextButton"
+			],
+			[
+				"ne",
+				"nextButton"
+			],
+			[
+				"next",
+				"nextButton"
+			],
+			[
+				"alp",
+				"alpha_container2"
+			],
+			[
+				"recre",
+				"recreate_answer_boxes"
+			],
+			[
+				"get",
+				"getModel"
+			],
+			[
+				"add",
+				"add_all_listeners"
+			],
+			[
+				"remo",
+				"remove_all_listeners"
+			],
+			[
+				"inp",
+				"input_container"
+			],
+			[
+				"cop",
+				"copy_alpha"
+			],
+			[
+				"sta",
+				"start_id"
+			],
+			[
+				"des",
+				"dest_box"
+			],
+			[
+				"j",
+				"j_string"
+			],
+			[
+				"new",
+				"newValues"
+			],
+			[
+				"in_",
+				"in_alpha_"
+			],
+			[
+				"cha",
+				"char_list"
+			],
+			[
+				"game",
+				"game_string"
+			],
+			[
+				"proces",
+				"process_drop"
+			],
+			[
+				"app",
+				"append	.append"
+			],
+			[
+				"drag",
+				"dragged_elem"
+			],
+			[
+				"dra",
+				"dragged_elem"
+			],
+			[
+				"inn",
+				"innerText"
+			],
+			[
+				"ans",
+				"answerbox"
+			],
+			[
+				"set",
+				"setboxes"
+			],
+			[
+				"inpu",
+				"input_box"
+			],
+			[
+				"upda",
+				"updateTextArea2"
+			],
+			[
+				"user",
+				"user_filled"
+			],
+			[
+				"use",
+				"user_filled"
+			],
+			[
+				"cr",
+				"create"
+			],
+			[
+				"roo",
+				"root_p"
+			],
+			[
+				"si",
+				"sizeof"
+			],
+			[
+				"item",
+				"item"
+			],
+			[
+				"s1",
+				"s1_top"
+			],
+			[
+				"print",
+				"print_list"
+			],
+			[
+				"size",
+				"sizeof"
+			],
+			[
+				"str",
+				"struct"
+			],
+			[
+				"end",
+				"endl"
+			],
+			[
+				"top",
+				"topH"
+			],
+			[
+				"bo",
+				"botR"
+			],
+			[
+				"c",
+				"current"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"be",
+				"begin"
+			],
+			[
+				"max",
+				"maxSwaps"
+			],
+			[
+				"ma",
+				"maxSwaps"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"int",
+				"input"
+			],
+			[
+				"b",
+				"b"
+			],
+			[
+				"blu",
+				"blueC"
+			],
+			[
+				"red",
+				"redC"
+			],
+			[
+				"bas",
+				"base"
+			],
+			[
+				"is",
+				"ispro"
+			],
+			[
+				"siz",
+				"size"
+			],
+			[
+				"sub",
+				"sub_list"
+			],
+			[
+				"begin",
+				"beginend	$1.begin(), $1.end()"
+			],
+			[
+				"min",
+				"min_k"
+			],
+			[
+				"cl",
+				"clipBoard"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"clas",
+				"classifyIt"
+			],
+			[
+				"pri",
+				"price"
+			],
+			[
+				"pr",
+				"price"
+			],
+			[
+				"op",
+				"op1"
+			],
+			[
+				"n",
+				"n"
+			],
+			[
+				"dread_ma",
+				"dread_max"
+			],
+			[
+				"dread",
+				"dread_max"
+			],
+			[
+				"price",
+				"price_in"
+			],
+			[
+				"cmp",
+				"cmp_index"
+			],
+			[
+				"string_",
+				"string_1"
+			],
+			[
+				"string",
+				"string_2"
+			],
+			[
+				"find",
+				"findMaximumMatching"
+			],
+			[
+				"de",
+				"debug"
+			],
+			[
+				"sin",
+				"sinepulse"
+			],
+			[
+				"ret",
+				"ret_sum"
+			],
+			[
+				"y",
+				"y_tot"
+			],
+			[
+				"s_",
+				"s_x"
+			],
+			[
+				"to",
+				"topcoder"
+			],
+			[
+				"st",
+				"streak"
+			],
+			[
+				"def",
+				"define"
+			],
+			[
+				"vec",
+				"vector"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				":W",
+				":w - Save"
+			],
+			[
+				":set synt",
+				"Preferences: Alignment File Settings – Syntax Specific – User"
+			],
+			[
+				"git sta",
+				"Git: Status"
+			],
+			[
+				"git gu",
+				"Git: Gui"
+			],
+			[
+				"git lo",
+				"Git: Log All"
+			],
+			[
+				"stat",
+				"Git: Status"
+			],
+			[
+				"git st",
+				"Git: Status"
+			],
+			[
+				":",
+				":w - Save"
+			],
+			[
+				"gist ",
+				"Gist: Open Gist in Browser"
+			],
+			[
+				"set ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"gist",
+				"Gist: Create Public Gist"
+			],
+			[
+				":syn",
+				"Preferences: Alignment File Settings – Syntax Specific – User"
+			],
+			[
+				"Snippet: top",
+				"Snippet: topcoder"
+			],
+			[
+				"set md",
+				"Set Syntax: Markdown"
+			],
+			[
+				"c++",
+				"Set Syntax: C++"
+			],
+			[
+				"Snippet: ",
+				"Snippet: script--from-source"
+			],
+			[
+				"Snippet: ve",
+				"Snippet: Vector For Loop"
+			],
+			[
+				"pojects",
+				"Project: Close"
+			],
+			[
+				"markd",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"mar",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"markdown",
+				"Set Syntax: Markdown"
+			],
+			[
+				"diff",
+				"Git: Diff All"
+			],
+			[
+				"tas",
+				"Tasks: New document"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"log ",
+				"Git: Log All"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"git diff",
+				"Git: Diff All"
+			],
+			[
+				"git",
+				"Git: Status"
+			],
+			[
+				"git br",
+				"Git: Change Branch"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"markdow",
+				"Set Syntax: Markdown"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"GIT STA",
+				"Git: Status"
+			],
+			[
+				"task",
+				"Tasks: Complete"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"sta",
+				"Git: Status"
+			],
+			[
+				":stat",
+				"Git: Status"
+			],
+			[
+				"JAVASCR",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				":html",
+				"Set Syntax: HTML (Django)"
+			],
+			[
+				"snip",
+				"Snippet: Anonymous Function"
+			],
+			[
+				":chec",
+				"Git: Checkout Current File"
+			],
+			[
+				":sa",
+				":w - Save"
+			],
+			[
+				"html",
+				"Snippet: html"
+			],
+			[
+				"git bla",
+				"Git: Blame"
+			],
+			[
+				"git lg",
+				"Git: Log All"
+			],
+			[
+				":swa",
+				"Convert Case: Swap Case"
+			],
+			[
+				"swa",
+				"Convert Case: Swap Case"
+			],
+			[
+				":conver",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"if else",
+				"Snippet: CommaSeparatedIntegerField (mcoseint)"
+			],
+			[
+				":fun",
+				"Snippet: Function"
+			],
+			[
+				"git che",
+				"Git: Checkout Current File"
+			],
+			[
+				"insall",
+				"Package Control: Install Package"
+			],
+			[
+				"package con",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 647.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/pranav/Myprojects/layoutit/src/index.html",
+		"/home/pranav/Myprojects/ka-lite-try/kalite/playlist_fixture.json",
+		"/home/pranav/Myprojects/Jamboree/js/jquery-2.0.3.js",
+		"/home/pranav/.config/sublime-text-2/Packages/User/HTML.sublime-settings",
+		"/home/pranav/Myprojects/Jamboree/imports/hangman.js",
+		"/home/pranav/hangman.js",
+		"/home/pranav/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/pranav/Myprojects/Jamboree/\\",
+		"/home/pranav/Myprojects/Jamboree/server.py",
+		"/home/pranav/Desktop/topcoder/552/500.cpp",
+		"/home/pranav/Desktop/topcoder/551/500.cpp",
+		"/home/pranav/Desktop/topcoder/554/500.cpp",
+		"/home/pranav/Desktop/topcoder/554/250.cpp",
+		"/home/pranav/Desktop/topcoder/557/500.cpp",
+		"/home/pranav/Desktop/topcoder/558/250.cpp",
+		"/home/pranav/Desktop/topcoder/561/250.cpp",
+		"/home/pranav/Desktop/topcoder/hr.cpp",
+		"/home/pranav/Desktop/topcoder/562/250.cpp",
+		"/home/pranav/Desktop/topcoder/562/500.cpp",
+		"/home/pranav/Desktop/topcoder/565/500.cpp",
+		"/home/pranav/Desktop/topcoder/564/250.cpp",
+		"/home/pranav/Desktop/topcoder/564/500.cpp",
+		"/home/pranav/Desktop/topcoder/563/500.cpp",
+		"/home/pranav/Desktop/topcoder/567/250.cpp",
+		"/home/pranav/Desktop/topcoder/567/500.cpp",
+		"/home/pranav/Desktop/topcoder/568/250.cpp",
+		"/home/pranav/Desktop/cheeku.c",
+		"/home/pranav/Desktop/topcoder/cheeku1.cpp",
+		"/home/pranav/.config/sublime-text-2/Packages/User/C.sublime-settings",
+		"/home/pranav/Desktop/topcoder/569/250.cpp",
+		"/home/pranav/Desktop/topcoder/570/250.cpp",
+		"/home/pranav/Desktop/topcoder/570/500.cpp",
+		"/home/pranav/Dropbox/thoughts/CS/C++notes.md",
+		"/home/pranav/Dropbox/thoughts/CS/C++ notes",
+		"/home/pranav/Desktop/random programming/467_2_1.cpp",
+		"/home/pranav/Desktop/random programming/DP/500_2_1.cpp",
+		"/home/pranav/.config/sublime-text-2/Packages/User/C++/topcoder.sublime-snippet",
+		"/home/pranav/.config/sublime-text-2/Packages/C++/std-vector-(v).sublime-snippet",
+		"/home/pranav/.config/sublime-text-2/Packages/User/C++/xyz.sublime-snippet",
+		"/home/pranav/.config/sublime-text-2/Packages/C++/topcoder.sublime-snippet",
+		"/home/pranav/Desktop/random programming/graph.cpp",
+		"/home/pranav/Desktop/random programming/random.sublime-project",
+		"/home/pranav/Dropbox/thoughts/123vitals.markdown",
+		"/home/pranav/Dropbox/thoughts/thoughts.sublime-project",
+		"/home/pranav/.config/sublime-text-2/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/home/pranav/.config/sublime-text-2/Packages/SideBarEnhancements/Default (Linux).sublime-keymap",
+		"/home/pranav/Myprojects/ka-lite/.gitignore",
+		"/home/pranav/Dropbox/thoughts/123agenda.markdown",
+		"/home/pranav/Myprojects/ka-lite/kalite/urls.py",
+		"/home/pranav/.config/sublime-text-2/Packages/User/playlists.TODO",
+		"/home/pranav/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+		"/home/pranav/.config/sublime-text-2/Packages/AdvancedNewFile/Default (Linux).sublime-keymap",
+		"/home/pranav/.config/sublime-text-2/Packages/User/AdvancedNewFile.sublime-settings",
+		"/home/pranav/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/pranav/Myprojects/ka-lite/python.sh",
+		"/home/pranav/Myprojects/ka-lite/kalite/templates/404.html",
+		"/home/pranav/Myprojects/ka-lite/kalite/templates/homepage.html",
+		"/home/pranav/Myprojects/ka-lite/kalite/templates/video.html",
+		"/home/pranav/Myprojects/ka-lite/kalite/utils/topics.py",
+		"/home/pranav/Myprojects/ka-lite/kalite/main/views.py",
+		"/home/pranav/Myprojects/ka-lite/kalite/main/models.py",
+		"/home/pranav/Myprojects/ka-lite/python-packages/django_extensions/management/shells.py",
+		"/home/pranav/Myprojects/ka-lite/kalite/settings.py",
+		"/home/pranav/Myprojects/ka-lite/kalite/templates/securesync/register_public_key_server.html",
+		"/home/pranav/Myprojects/ka-lite/kalite/local_settings.py",
+		"/home/pranav/Desktop/untitled.TODO",
+		"/home/pranav/.config/sublime-text-2/Packages/PlainTasks/messages/Tutorial.todo",
+		"/home/pranav/Desktop/trial.todo",
+		"/home/pranav/Myprojects/ka-lite/kalite/securesync/models.py",
+		"/home/pranav/Myprojects/ka-lite/python-packages/django/core/management/commands/runserver.py",
+		"/home/pranav/Myprojects/ka-lite/kalite/templates/playlists.html",
+		"/home/pranav/.config/sublime-text-2/Packages/User/JavaScript/script--from-source.sublime-snippet",
+		"/home/pranav/Myprojects/ka-lite/kalite/templates/index.html",
+		"/home/pranav/.config/sublime-text-2/Packages/Web Inspector/swi.sublime-settings",
+		"/home/pranav/Desktop/index.html",
+		"/home/pranav/Myprojects/idoc_tibbles/kalite/coachreports/views.py",
+		"/home/pranav/.config/sublime-text-2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
+		"/home/pranav/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"<open files>",
+			"cheeku.c",
+			"<open files>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ExamImmutableQueueImpl",
+			"doc",
+			"onFile",
+			"ABCDE",
+			"imports",
+			"gapi",
+			"~();",
+			"t1",
+			" {",
+			"time",
+			"\n#define tr(con, it) for(typeof(con.begin()) it = con.begin();it!=con.end();it++)\n#define pr(con) tr(con,it){cout<<*it<<\"\\n\";}\n",
+			"video_dow",
+			"playlist_view",
+			"entit",
+			"b",
+			"slug_key",
+			"don",
+			"[your 'signature' email address]",
+			"\"[",
+			"block",
+			"{% ",
+			"block",
+			"val"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"PersistentQueue",
+			"js",
+			"t",
+			"pnpranavrao@gmail.com"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 155.0
+	},
+	"output.find_results":
+	{
+		"height": 112.0
+	},
+	"output.git":
+	{
+		"height": 112.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 112.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"random",
+				"random.sublime-project"
+			],
+			[
+				"urls",
+				"kalite/urls.py"
+			],
+			[
+				"url",
+				"kalite/main/urls.py"
+			],
+			[
+				"mainview",
+				"kalite/main/views.py"
+			],
+			[
+				"mainurl",
+				"kalite/main/urls.py"
+			],
+			[
+				"video",
+				"kalite/templates/video.html"
+			],
+			[
+				"kaliteutilstopics",
+				"kalite/utils/topics.py"
+			],
+			[
+				"mainviews",
+				"kalite/main/views.py"
+			],
+			[
+				"djangoextensshell",
+				"python-packages/django_extensions/management/shells.py"
+			],
+			[
+				"mainmodels",
+				"kalite/main/models.py"
+			],
+			[
+				"pypackadjanextensions",
+				"python-packages/django_extensions/management/shells.py"
+			],
+			[
+				"setting",
+				"kalite/settings.py"
+			],
+			[
+				"securesyncmode",
+				"kalite/securesync/models.py"
+			],
+			[
+				"runse",
+				"python-packages/django/core/management/commands/runserver.py"
+			],
+			[
+				"templatessecure",
+				"kalite/templates/securesync/register_public_key_server.html"
+			],
+			[
+				"templatesecuresyncpublic",
+				"kalite/templates/securesync/register_public_key_server.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 300.0,
+	"status_bar_visible": true
+}

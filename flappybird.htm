@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head data-aij_comm="{&quot;name&quot;:&quot;$&quot;}"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="user-scalable=0, initial-scale=1.0">
+
+    <title>Flappy Bird Typing Tutor by MrSpeaker (With a leaderboard)</title>
+
+    <link rel="stylesheet" href="./res/main.css">
+    <style type="text/css"></style>
+    <script src="./flappybird_files/jquery.min.js"></script>
+
+    <script type="text/javascript">
+    var Clay = Clay || {};
+    Clay.gameKey = "flappyscore";
+    Clay.readyFunctions = [];
+    Clay.ready = function( fn ) {
+        Clay.readyFunctions.push( fn );
+    };
+    ( function() {
+        var clay = document.createElement("script"); clay.async = true;
+        clay.src = ( "https:" == document.location.protocol ? "https://" : "http://" ) + "clay.io/api/api-data-leaderboard-twitter-facebook-stream.js"; 
+        var tag = document.getElementsByTagName("script")[0]; tag.parentNode.insertBefore(clay, tag);
+    } )();
+    </script>
+
+</head>
+<body style="">
+    <section>
+        <canvas id="board" width="288" height="512"></canvas>
+    </section>
+    
+
+   
+    
+    <!-- Ω500 lib -->
+    <script src="./flappybird_files/500.js"></script>
+
+    
+    <!-- Game -->
+    <script src="./flappybird_files/game.js"></script>
+    <script src="./flappybird_files/Bird.js"></script>
+    <script src="./flappybird_files/Pipe.js"></script>
+    <script src="./flappybird_files/MainScreen.js"></script>
+    <script src="./flappybird_files/TitleScreen.js"></script>
+    <script>
+        var game = new OmegaGame(288, 512);
+
+        show_scores = function(){
+            var leaderboard = new Clay.Leaderboard( { id: 2754 } );
+            var options = { // all of these are optional
+                html: "<strong>Hi</strong>", // Optional, any custom html you want to show below the name
+                //recent: 3600, // Optional, to limit scores to ones posted in last x seconds
+                sort: 'asc', // Optional, sorting by "asc" will show the lowest scores first (ex. for fastest times)
+                filter: ['day', 'month'], // Optional, Array of filters to narrow down high scores
+                cumulative: false, // Optional, if set to true grabs the sum of all scores for each player
+                best: false, // Optional, if set to true grabs the best score from each player
+                limit: 10, // Optional, how many scores to show (0 for all). Default is 10
+                self: false, // Optional, Boolean if set to true shows just the scores of the player viewing
+                friends: false, // Optional, Boolean if set to true shows just the scores of the player viewing AND their Clay.io friends
+                showPersonal: true // Optional, Boolean on if the player's stats (rank & high score) should show below the name. Default is false
+            };
+            var callback = function( response ) { // Optional
+                console.log( response );
+            };
+            leaderboard.show( options, callback );
+        };
+    </script>
+
+    <script>
+    //Put your google tracking code here
+    </script>
+    <footer>
+    <button onclick="show_scores()"> See leaderboard here </button>
+    <div>This game was produced and hosted originally by MrSpeaker <a href="http://www.mrspeaker.net/dev/game/flappy/">here</a>. I just added a leaderboard. </div> 
+    </footer>
+
+
+</body></html>
