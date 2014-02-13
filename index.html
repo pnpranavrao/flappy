@@ -45,42 +45,50 @@
     <script src="./flappybird_files/MainScreen.js"></script>
     <script src="./flappybird_files/TitleScreen.js"></script>
     <script>
-        var game = new OmegaGame(288, 512);
 
-        show_scores = function(){
-            var leaderboard = new Clay.Leaderboard( { id: 2754 } );
-            var options = { // all of these are optional
-                html: "<strong>Hi</strong>", // Optional, any custom html you want to show below the name
-                //recent: 3600, // Optional, to limit scores to ones posted in last x seconds
-                sort: 'desc', // Optional, sorting by "asc" will show the lowest scores first (ex. for fastest times)
-                filter: ['day', 'month'], // Optional, Array of filters to narrow down high scores
-                cumulative: false, // Optional, if set to true grabs the sum of all scores for each player
-                best: true, // Optional, if set to true grabs the best score from each player
-                limit: 10, // Optional, how many scores to show (0 for all). Default is 10
-                self: false, // Optional, Boolean if set to true shows just the scores of the player viewing
-                friends: false, // Optional, Boolean if set to true shows just the scores of the player viewing AND their Clay.io friends
-                showPersonal: true // Optional, Boolean on if the player's stats (rank & high score) should show below the name. Default is false
-            };
-            var callback = function( response ) { // Optional
-                console.log( response );
-            };
-            leaderboard.show( options, callback );
-        };
+                    
+    
     </script>
 
     <script>
     //Put your google tracking code here
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
   ga('create', 'UA-46672955-1', 'pnpranavrao.github.io');
   ga('send', 'pageview');
-
     </script>
     <footer>
-    <button onclick="show_scores()"> See leaderboard here </button>
+    <button id='but'> See leaderboard here </button>
+    <script>
+        Clay.ready( function(){
+             var options = { // all of these are optional
+                html: "<strong>Hi</strong>", // Optional, any custom html you want to show below the name
+                recent: 10600, // Optional, to limit scores to ones posted in last x seconds
+                sort: 'asc', // Optional, sorting by "asc" will show the lowest scores first (ex. for fastest times)
+                filter: ['day', 'month'], // Optional, Array of filters to narrow down high scores
+                cumulative: false, // Optional, if set to true grabs the sum of all scores for each player
+                best: false, // Optional, if set to true grabs the best score from each player
+                limit: 10, // Optional, how many scores to show (0 for all). Default is 10
+                self: false, // Optional, Boolean if set to true shows just the scores of the player viewing
+                friends: false, // Optional, Boolean if set to true shows just the scores of the player viewing AND their Clay.io friends
+                showPersonal: true // Optional, Boolean on if the player's stats (rank & high score) should show below the name. Default is false
+            };
+
+            var lb = new Clay.Leaderboard( {id:'bbaays', options:options});
+
+            $('#but').click( function(e){
+            lb.show();    
+        });
+
+        }
+        );
+        var game = new OmegaGame(288, 512);
+
+        
+     </script>
     <div>This game was produced and hosted originally by MrSpeaker <a href="http://www.mrspeaker.net/dev/game/flappy/">here</a>. I just added a leaderboard. </div> 
     </footer>
 
